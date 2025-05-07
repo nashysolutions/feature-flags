@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "versioning",
+        "repositoryURL": "git@github.com:nashysolutions/versioning.git",
+        "state": {
+          "branch": null,
+          "revision": "630d2b2648cc39f7e4aec1950308a8a07f9a5e57",
+          "version": "2.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

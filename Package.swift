@@ -1,0 +1,33 @@
+// swift-tools-version: 5.4
+
+import PackageDescription
+
+let package = Package(
+    name: "feature-flags",
+    platforms: [
+        .iOS(.v13),
+        .macOS(.v11),
+        .watchOS(.v5),
+        .tvOS(.v12),
+    ],
+    products: [
+        .library(
+            name: "FeatureFlags",
+            targets: ["FeatureFlags"]),
+    ],
+    dependencies: [
+        .package(url: "git@github.com:nashysolutions/versioning.git", .upToNextMinor(from: "2.0.0"))
+    ],
+    targets: [
+        .target(
+            name: "FeatureFlags",
+            dependencies: [
+                .product(name: "Versioning", package: "versioning")
+            ]
+        ),
+        .testTarget(
+            name: "FeatureFlagsTests",
+            dependencies: ["FeatureFlags"]
+        ),
+    ]
+)
