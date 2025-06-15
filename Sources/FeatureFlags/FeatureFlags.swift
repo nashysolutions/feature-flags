@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import Combine
 import Versioning
 
 /// A class that manages the lifecycle and availability of feature flags of a target.
