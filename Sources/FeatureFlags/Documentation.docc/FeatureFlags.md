@@ -11,31 +11,7 @@ This library is designed for teams who want to:
 
 ---
 
-## Example
+## Topics
 
-```swift
-let flags = FeatureFlags(currentVersion: "1.0.0")
-
-let darkMode = FeatureFlag(
-    name: "DarkMode",
-    minimumVersion: "1.0.0",
-    description: "Enables dark theme support"
-)
-
-flags.registerFeature(darkMode)
-
-if flags.isFeatureEnabled("DarkMode") {
-    enableDarkModeUI()
-}
-```
-
----
-
-## Related Symbols
-
-- ``FeatureFlag``
-- ``FeatureFlags``
-
-## Related Packages
-
-- [Versioning](https://github.com/nashysolutions/versioning)
+- <doc:RegisteringFeatures>
+- <doc:UserOverrides>
