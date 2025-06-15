@@ -16,7 +16,7 @@ let package = Package(
             targets: ["FeatureFlags"]),
     ],
     dependencies: [
-        .package(url: "git@github.com:nashysolutions/versioning.git", .upToNextMinor(from: "2.2.0"))
+        .package(url: "https://github.com/nashysolutions/versioning.git", .upToNextMinor(from: "2.2.0"))
     ],
     targets: [
         .target(

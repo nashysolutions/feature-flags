@@ -3,7 +3,7 @@
     {
       "identity" : "versioning",
       "kind" : "remoteSourceControl",
-      "location" : "git@github.com:nashysolutions/versioning.git",
+      "location" : "https://github.com/nashysolutions/versioning.git",
       "state" : {
         "revision" : "9019a972afa90b17dc8683f0888d253313ab1570",
         "version" : "2.2.0"
