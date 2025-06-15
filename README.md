@@ -8,11 +8,8 @@ It enables you to define, register, and conditionally activate features based on
 ## Features
 
 - ✅ Register and manage feature flags using `FeatureFlag` models
-- 🧠 Evaluate feature availability using `SemanticVersion` from the [`Versioning`](https://github.com/nashysolutions/versioning) library
-- 🕹️ Support user-controlled overrides (enable/disable)
-- 📢 Observable `enabledFeatures` list via `@Published`
-- 🧪 Designed for testing and modular usage
-
+- 🧠 Evaluate feature availability using `SemanticVersion` from the [`Versioning`](https://github.com/nashysolutions/versioning) library.
+- 🕹️ Support user-controlled overrides (enable/disable) for pre-release builds.
 
 ## 📦 Installation
 
@@ -64,14 +61,3 @@ var body: some View {
     }
 }
 ```
-
-## Architecture
-
-The system is broken down into four main components:
-
-| Type                  | Responsibility                                               |
-|-----------------------|--------------------------------------------------------------|
-| `FeatureFlag`         | Represents a single flag and its activation version          |
-| `FeatureRegistry`     | Manages registered flags and evaluates version conditions    |
-| `UserOverrideManager` | Stores and prioritises manual enable/disable preferences     |
-| `FeatureFlags`        | Public interface, observable, manages lifecycle and resolution |
