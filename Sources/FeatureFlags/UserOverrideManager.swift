@@ -7,9 +7,6 @@
 
 import Foundation
 
-/// A manager responsible for handling user overrides for feature availability.
-///
-/// This class allows features to be explicitly enabled or disabled by the user, overriding the default application settings.
 @MainActor
 final class UserOverrideManager {
     
