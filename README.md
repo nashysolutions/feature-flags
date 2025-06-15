@@ -1,5 +1,8 @@
 # FeatureFlags
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Ffeature-flags%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/nashysolutions/feature-flags)
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Fnashysolutions%2Ffeature-flags%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/nashysolutions/feature-flags)
+
 **FeatureFlags** is a lightweight, version-aware feature flag system for Swift applications.  
 It enables you to define, register, and conditionally activate features based on semantic app versioning — with support for user overrides, Combine observation, and testability.
 
