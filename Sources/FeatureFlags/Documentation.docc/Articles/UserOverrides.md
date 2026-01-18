@@ -1,5 +1,7 @@
 # User Overrides
 
+How to register features and override them locally.
+
 ## Overview
 
 The `FeatureFlags` system supports user-controlled overrides that take precedence over version-based logic.

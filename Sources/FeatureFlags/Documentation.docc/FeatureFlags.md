@@ -1,17 +1,10 @@
 # ``FeatureFlags``
 
-`FeatureFlags` is a Swift package for managing feature flags.  
-It helps you conditionally enable features in your app based on the current version, with built-in support for user overrides and observable state.
 
-This library is designed for teams who want to:
+Provides **local feature availability management** based on
+semantic versioning and explicit user overrides.
 
-- Gradually roll out new functionality via [semantic versioning](https://semver.org/).
-- Enable experimental features in pre-release builds
-- Provide user-controlled feature toggles (e.g. via a debug menu)
-
----
-
-## Topics
-
-- <doc:RegisteringFeatures>
-- <doc:UserOverrides>
+- Explicit **registration** of features
+- Version-based availability via semantic versioning
+- **User-controlled overrides** that take precedence over version rules
+- An observable list of currently enabled features for UI and state updates
