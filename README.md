@@ -7,6 +7,8 @@ A lightweight Swift library for **managing feature flags** based on semantic ver
 
 Designed for real applications where feature rollouts, version-gating, and conditional behaviour need to be expressed **clearly and predictably** in code.
 
+[Documentation](https://swiftpackageindex.com/nashysolutions/feature-flags/1.2.2/documentation/featureflags)
+
 ---
 
 ## Why this exists
